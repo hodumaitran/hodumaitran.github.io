@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Portfolio/",
+  // This is a GitHub user site, served from the domain root.
+  base: "/",
 
 })
